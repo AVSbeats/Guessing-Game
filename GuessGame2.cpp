@@ -16,9 +16,9 @@ int main()
 
     isGuessed = false;
 
-    while ((tries < 5) && (!isGuessed))
+    while ((tries < 4) && (!isGuessed))
     {
-        cout << "Hey Ashley!!! Enter a Number Between 0 and 10" << endl;
+        cout << "Hermosa!!! Enter a Number Between 0 and 10" << endl;
         cin >> guess;
         cout << endl;
 
@@ -26,14 +26,14 @@ int main()
 
         if (guess == number)
         {
-            cout << "You Guessed the Correct Number Beautiful!!!" << endl;
+            cout << "You Guessed the Correct Number Beautiful!!! Now Let's Get Married!!!!" << endl;
             isGuessed = true;
         }
         else if (guess < number)
-            cout << "Your Guessed is Lower Than That Number. \nGuess Again!" << endl;
+            cout << "Your Guessed is Lower Than That Number. \nGuess Again Prettyful!" << endl;
 
         else
-            cout << "Your Guessed is Higher Than That Number. \nGuess Again!" << endl;
+            cout << "Your Guessed is Higher Than That Number. \nGuess Again Prettyful!" << endl;
         cout << endl; // THIS IS TO MAKE SPACE BETWEEN SENTENCE!!!
     }
 
